@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Perfume</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" name="styles.css">
+    </head>
+    <body>
+    <header>Perfume</header>
+    <div>Gabrielle Essence Eau de Parfum</div>
+    <div>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL</div>
+    <div id="price">$149.99 <span id="full-price">$169.99</span>
+    </div>
+    <button type="button">Add to cart</button>
+    </body>
+</html> 
