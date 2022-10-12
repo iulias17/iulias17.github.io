@@ -2,6 +2,8 @@
 body {
     background-color: hsl(30, 38%, 92%);
     width: 100%;
+    min-width: 375px;
+    max-width: 1440px;
     display: flex;
     justify-content: center;
 }
