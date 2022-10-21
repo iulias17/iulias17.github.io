@@ -90,7 +90,7 @@ button {
     align-items: center;
     height: 100%;
 }
-@media only-screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     * {
     box-sizing: border-box;
     padding: 0;
@@ -101,6 +101,7 @@ html {
 }
 img {
     max-width: 375px;
+    height: 350px;
     display: flex;
     justify-content: flex-start;
 }
@@ -108,11 +109,15 @@ img {
     max-width: 375px;
     display: flex;
     justify-content: flex-end;
+    padding: 0;
+    border: transparent;
+    border-radius: 0 0 8px 8px;
 }
-    .main {
+.main {
     display: flex;
     justify-content: center;
-    max-width: 375px;
+    width: 375px;
     height: 100vh;
+    flex-wrap: wrap;
 }
 }
